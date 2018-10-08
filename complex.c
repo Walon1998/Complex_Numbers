@@ -15,6 +15,7 @@ struct complex_Number add(struct complex_Number first, struct complex_Number sec
     return result;
 }
 
+
 struct complex_Number subtract(struct complex_Number first, struct complex_Number second) {
     double realteil = first.a - second.a;
     double imaginaerteil = first.b - second.b;
